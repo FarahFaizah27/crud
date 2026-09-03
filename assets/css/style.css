@@ -1,0 +1,92 @@
+/* Container Login */
+.login-container {
+    max-width: 500px;
+    margin: 80px auto;
+}
+
+.login-page {
+    font-family: Arial, sans-serif;
+    background-color: #006400;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Login */
+.login-card {
+    width: 300px;
+    min-height: 200px;
+
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+
+    padding: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Judul */
+.login-card h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form */
+.login-card form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Grup Form */
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Input */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #006400;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Tombol Login */
+.login-card button {
+    width: 200px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: #006400;
+    color: white;
+    font-size: 16px;
+}
+
+.login-card button:hover {
+    background-color: #1c7e1c;
+}
+
+.alert-error {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    background-color: #f8d7da;
+    color: #842029;
+
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+
+    text-align: center;
+}
