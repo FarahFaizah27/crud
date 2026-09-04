@@ -1,7 +1,6 @@
 <div id="modalTambah" class="modal">
         <div class="modal-content">
 
-            <!-- Header Modal -->
             <div class="modal-header">
                 <h2>Tambah Data Pengguna</h2>
 
@@ -14,7 +13,6 @@
                 </button>
             </div>
 
-            <!-- Form Tambah -->
             <form id="formTambah">
                 <div class="form-group">
                     <label for="nama">Nama</label>

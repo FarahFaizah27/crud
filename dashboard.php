@@ -30,7 +30,6 @@ while ($row = mysqli_fetch_assoc($query)) {
 <body>
     <div class="dashboard-container">
 
-        <!-- Header Dashboard -->
         <div class="dashboard-header">
             <div>
                 <h1>Dashboard</h1>
@@ -45,7 +44,6 @@ while ($row = mysqli_fetch_assoc($query)) {
             </a>
         </div>
 
-        <!-- Card Data Pengguna -->
         <div class="data-card">
             <div class="data-header">
                 <h2>Daftar Data Pengguna</h2>
@@ -59,7 +57,6 @@ while ($row = mysqli_fetch_assoc($query)) {
                 </button>
             </div>
 
-            <!-- Tabel -->
             <div class="table-container">
                 <table>
                     <thead>
@@ -118,7 +115,6 @@ while ($row = mysqli_fetch_assoc($query)) {
             </div>
         </div>
     </div>
-
 
    <?php include 'modaltambah.php'; ?>
    <?php include 'modaledit.php'; ?>
