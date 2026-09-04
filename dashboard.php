@@ -9,12 +9,8 @@ if (!isset($_SESSION['login'])) {
 
 require 'config/database.php';
 
-// Mengambil seluruh data pengguna dari database
 $query = mysqli_query($conn, "SELECT * FROM users");
-
-// Menyimpan data pengguna ke dalam variabel array
 $data_users = [];
-
 while ($row = mysqli_fetch_assoc($query)) {
     $data_users[] = $row;
 }
@@ -123,10 +119,8 @@ while ($row = mysqli_fetch_assoc($query)) {
         </div>
     </div>
 
-    <!-- MODAL TAMBAH PENGGUNA -->
-    <?php include 'modaltambah.php'; ?>
 
-    <!-- MODAL EDIT PENGGUNA -->
+   <?php include 'modaltambah.php'; ?>
    <?php include 'modaledit.php'; ?>
 
     <script src="assets/js/hapus.js"></script>

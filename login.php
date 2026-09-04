@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -13,14 +12,17 @@
 
     <div class="login-container">
         <div class="login-card">
-            
+
             <h1>Login Admin</h1>
+            
             <?php if (isset($_GET['error'])) : ?>
                 <div class="alert-error">
                     Username atau Password Admin salah!
                 </div>
             <?php endif; ?>
+
             <form action="proses_login.php" method="POST">
+
                 <div class="form-group">
                     <label for="username">
                         Username

@@ -2,16 +2,15 @@
 
 require 'config/database.php';
 
-// Mengambil ID dari AJAX
+
 $id = $_POST['id'];
 
-// Query menghapus data berdasarkan ID
 $query = mysqli_query(
     $conn,
     "DELETE FROM users WHERE id='$id'"
 );
 
-// Mengecek apakah data berhasil dihapus
+
 if ($query) {
 
     echo json_encode([
